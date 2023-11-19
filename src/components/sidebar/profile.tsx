@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function Profile() {
   return (
-    <div className="grid-cols-profile grid gap-3">
+    <div className="grid grid-cols-profile gap-3">
       <Image
         src="https://github.com/mauricioromagnollo.png"
         className="h-10 w-10 rounded-full"
