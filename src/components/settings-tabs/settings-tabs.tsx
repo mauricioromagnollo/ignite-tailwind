@@ -13,7 +13,7 @@ export function SettingsTabs() {
     <Tabs.Root value={activeTab} onValueChange={setActiveTab}>
       <RadixScrollArea.Root className="w-full" type="scroll">
         <RadixScrollArea.Viewport className="w-full overflow-x-scroll">
-          <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200">
+          <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200 dark:border-zinc-700">
             <TabItem
               value="tab1"
               title="My details"
