@@ -25,6 +25,7 @@ export function ThemeSwitcher() {
   function handleSwitchTheme() {
     document.documentElement.classList.toggle('dark')
     setIsDark(!isDark)
+    localStorage.setItem('theme', isDark ? 'dark' : 'light')
   }
 
   return (
